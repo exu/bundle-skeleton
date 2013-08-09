@@ -1,5 +1,5 @@
 {
-    "name": "skeleton-namespace/skeleton-budle",
+    "name": "bundle/skeleton",
     "version": "1.0.0",
     "type": "symfony-bundle",
     "description": "SkeletonNamespace SkeletonBundle",
