@@ -22,7 +22,7 @@
         "symfony/monolog-bundle":       "*@stable"
     },
     "scripts" : {
-        "post-root-package-install": [
+        "post-create-project-cmd": [
             "SkeletonNamespace\\SkeletonBundle\\Composer\\ScriptHandler::buildProject"
         ]
     },
