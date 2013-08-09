@@ -1,5 +1,5 @@
 <?php
-namespace Composer;
+namespace SkeletonNamespace\SkeletonBundle\Composer;
 
 use Composer\IO\IOInterface;
 use Composer\Script\Event;

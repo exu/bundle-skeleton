@@ -4,6 +4,10 @@
     "type": "symfony-bundle",
     "description": "SkeletonNamespace SkeletonBundle",
     "license": "MIT",
+    "autoload": {
+        "psr-0": { "SkeletonNamespace\\SkeletonBundle": "" },
+        "classmap": ["Composer/"]
+    },
     "require": {
         "php":                           ">=5.3.3",
         "symfony/symfony":               "*@stable",
@@ -19,11 +23,8 @@
     },
     "scripts" : {
         "post-root-package-install": [
-            "Composer\\ScriptHandler::buildProject"
+            "SkeletonNamespace\\SkeletonBundle\\Composer\\ScriptHandler::buildProject"
         ]
-    },
-    "autoload": {
-        "psr-0": { "SkeletonNamespace\\SkeletonBundle": "" }
     },
     "target-dir": "SkeletonNamespace/SkeletonBundle"
 }
