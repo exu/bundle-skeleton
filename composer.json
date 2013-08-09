@@ -1,0 +1,22 @@
+{
+    "name": "skeleton-namespace/skeleton-budle",
+    "type": "symfony-bundle",
+    "description": "SkeletonNamespace SkeletonBundle",
+    "license": "MIT",
+    "require": {
+        "php":                           ">=5.3.3",
+        "symfony/symfony":               "*@stable",
+        "sensio/framework-extra-bundle": "*@dev"
+    },
+    "require-dev": {
+        "behat/behat":                  "*@stable",
+        "behat/symfony2-extension":     "*@stable",
+        "behat/mink-extension":         "*",
+        "behat/mink-browserkit-driver": "*",
+        "symfony/monolog-bundle":       "*@stable"
+    },
+    "autoload": {
+        "psr-0": { "SkeletonNamespace\\SkeletonBundle": "" }
+    },
+    "target-dir": "SkeletonNamespace/SkeletonBundle"
+}
