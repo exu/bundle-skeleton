@@ -1,6 +1,6 @@
 <?php
 
-namespace Zalas\Bundle\DemoBundle\Features\Context;
+namespace SkeletonNamespace\SkeletonBundle\Features\Context;
 
 use Behat\Behat\Context\Step\Then;
 use Behat\MinkExtension\Context\MinkContext;

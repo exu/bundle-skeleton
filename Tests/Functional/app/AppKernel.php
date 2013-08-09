@@ -32,7 +32,7 @@ class AppKernel extends Kernel
      */
     public function getCacheDir()
     {
-        return sys_get_temp_dir().'/ZalasDemoBundle/cache';
+        return sys_get_temp_dir().'/SkeletonNamespaceSkeletonBundle/cache';
     }
 
     /**
@@ -40,6 +40,6 @@ class AppKernel extends Kernel
      */
     public function getLogDir()
     {
-        return sys_get_temp_dir().'/ZalasDemoBundle/logs';
+        return sys_get_temp_dir().'/SkeletonNamespaceSkeletonBundle/logs';
     }
 }

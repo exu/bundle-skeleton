@@ -5,7 +5,7 @@ default:
     features: Features
     bootstrap: %behat.paths.features%/Context
   context:
-    class: Zalas\Bundle\DemoBundle\Features\Context\FeatureContext
+    class: SkeletonNamespace\SkeletonBundle\Features\Context\FeatureContext
   extensions:
     Behat\Symfony2Extension\Extension:
       mink_driver: true
@@ -15,5 +15,5 @@ default:
         path: Features/Fixtures/Project/app/AppKernel.php
         bootstrap: Features/Fixtures/Project/app/bootstrap.php
     Behat\MinkExtension\Extension:
-      base_url: 'http://www.acme.dev/app_test.php/'
+      base_url: 'http://skeleton-url/app_test.php/'
       default_session: symfony2

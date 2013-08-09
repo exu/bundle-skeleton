@@ -9,11 +9,17 @@
         "sensio/framework-extra-bundle": "*@dev"
     },
     "require-dev": {
+        "phpunit/phpunit":              "3.7.*",
         "behat/behat":                  "*@stable",
         "behat/symfony2-extension":     "*@stable",
         "behat/mink-extension":         "*",
         "behat/mink-browserkit-driver": "*",
         "symfony/monolog-bundle":       "*@stable"
+    },
+    "scripts" : {
+        "post-root-package-install": [
+            "SkeletonNamespace\\SkeletonBundle\\Composer\\ScriptHandler::buildProject",
+        ]
     },
     "autoload": {
         "psr-0": { "SkeletonNamespace\\SkeletonBundle": "" }
