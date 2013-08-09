@@ -5,8 +5,7 @@
     "description": "SkeletonNamespace SkeletonBundle",
     "license": "MIT",
     "autoload": {
-        "psr-0": { "SkeletonNamespace\\SkeletonBundle": "./", "": "./" },
-        "classmap": ["Composer/"]
+        "psr-0": { "SkeletonNamespace\\SkeletonBundle": "", "": "" }
     },
     "require": {
         "php":                           ">=5.3.3",
