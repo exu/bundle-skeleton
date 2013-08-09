@@ -19,7 +19,7 @@
     },
     "scripts" : {
         "post-root-package-install": [
-            "SkeletonNamespace\\SkeletonBundle\\Composer\\ScriptHandler::buildProject"
+            "Composer\\ScriptHandler::buildProject"
         ]
     },
     "autoload": {
