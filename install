@@ -1,0 +1,4 @@
+find -name "*.php" | sed "s/SkeletonNamespace/$1/g"
+find -name "*.php" | sed "s/SkeletonBundle/$2/g"
+
+mv src/SkeletonNamespaceSkeletonBundle.php $1$2.php

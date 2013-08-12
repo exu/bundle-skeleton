@@ -22,7 +22,7 @@
     },
     "scripts" : {
         "post-create-project-cmd": [
-            "Install\\ScriptHandler::buildProject"
+            "./install"
         ]
     },
     "target-dir": "SkeletonNamespace/SkeletonBundle"
